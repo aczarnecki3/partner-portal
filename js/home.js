@@ -8,7 +8,7 @@ function showMenu() {
 $(function() {               
 
 $("#hamburger").click(showMenu);
-$("#main").parallax({imageSrc: '../partnerportal/images/hero.png'});
+$("#main").parallax({imageSrc: 'images/hero.png'});
 $("h1").fadeIn(1500);
 
 
