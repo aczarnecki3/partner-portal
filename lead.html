@@ -18,7 +18,7 @@
 		<header>
 			<div class="container">
 				<nav>
-					<a href="index.html"><img id="logo" src="images/Patientco_horiz_logo_web_white.png" width="204" height="36" alt="Patientco Logo"></a>
+					<a href="../partnerportal/index.html"><img id="logo" src="images/Patientco_horiz_logo_web_white.png" width="204" height="36" alt="Patientco Logo"></a>
 					<button id="lead-button-nav"><a href="#">Submit a Lead</a></button>
 					<button id="logout-button"><a href="#">Logout</a></button>
 				</nav>
@@ -27,28 +27,18 @@
 
 		<section id="main">
 			<div class="container">
-					<h1>Submit a Lead</h1>
 			<section id="form-container">
-				<form>
-					<div class="form-target">
-						<label for="partnername">Name:</label>
-						<input class="input-boxes" type="text" name="partnername" placeholder="Your Name Here!" />
-					</div>
-
-					<div class="form-target">
-						<label for="partneremail">Email:</label>
-						<input class="input-boxes" type="email" name="partneremail" placeholder="Bruce.Wayne@example.com" />
-					</div>
-
-					<div class="form-target">
-						<label for="partnerphone">Phone:</label>
-						<input class="input-boxes" type="tel" name="partnerphone" placeholder="888-888-8888" />
-					</div>
-
-				</form>
+				<h1>Submit LEADS</h1>
+					<div id="form-align">
+	            		<form action="">
+		              		<input type="text" class="ghost-input" placeholder="Your Name" required>
+		              		<input type="email" class="ghost-input" placeholder="Your E-mail" required> 
+		              		<input type="text" class="ghost-input" placeholder="Lead's Name" required>
+		              		<textarea rows="5" type="text" class="ghost-input" placeholder="Why should they talk to Patientco?" required></textarea>
+		              		<input type="submit" class="ghost-button">
+	            		</form>
+          			</div>
 			</section>
-
-
 			</div>
 		</section>
 
