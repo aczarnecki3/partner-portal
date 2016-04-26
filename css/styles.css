@@ -137,6 +137,11 @@ form {
     text-align: center;
 }
 
+header nav {
+  position: fixed;
+  width: 100%;
+}
+
 .main-buttons {
     width: 300px;
 }
